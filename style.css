@@ -120,7 +120,7 @@ section.even {
     border-top-color: #2c3e50;
     background-color: #fff;
     color: #2c3e50;
-    height: 1100px;
+    height: 1050px;
 }
 
 section#introduce img {
@@ -191,11 +191,7 @@ section .divider {
 
 
 
-
-   
-
-@media screen and (max-width: 500px) { 
-
+@media screen and (max-width: 400px) {
     section.even {
         border-top-color: #2c3e50;
         background-color: #fff;
@@ -210,7 +206,8 @@ section .divider {
     margin-bottom: 3rem;}
 
 }
-    
+
+@media screen and (max-width: 500px) {
     .navbar__link {
     font-size: 11.5px;
 
@@ -236,7 +233,7 @@ section .divider {
     font-size: 14px;
    
    }
-
+}
 
 @media screen and (max-width: 1200px) {
  
@@ -246,7 +243,7 @@ section .divider {
         border-top-color: #2c3e50;
         background-color: #fff;
         color: #2c3e50;
-        height: 2000px;
+        height: 1340px;
    }
    .cards__item {
     margin-left: 15px;
