@@ -1,3 +1,4 @@
+
 html, body {
     height: 100%;
     padding: 0;
@@ -10,6 +11,14 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+
+.background img{
+    width: 100%;
+    object-fit: cover;
+    height: 80vh;
 }
 
 
@@ -108,15 +117,16 @@ section.even {
     border-top-color: #2c3e50;
     background-color: #fff;
     color: #2c3e50;
-    height: 855px;
+    height: 950px;
 }
 
 section#introduce img {
-    width: 256px;
+    max-width: 350px;
     border: 10px solid #2c3e50;
     border-radius: 30%;
     margin-bottom: 3rem;
 }
+
 section .divider {
     margin: 10px;
 }
@@ -127,7 +137,7 @@ section .divider {
 
 .cards {
     display: grid;
-    width: 100%;
+    max-width: 100%;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 0px;
 }
@@ -147,8 +157,6 @@ section .divider {
     width: 100%;
     height: 100%;
 }
-
-
 
 .footer {
     display: flex;
@@ -176,4 +184,53 @@ section .divider {
 .button:hover {
     background-color: #fff;
     color: #2c3e50;
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+    .navbar__link {
+    font-size: 11.5px;
+
+   }
+
+.navbar__brand {
+    font-size: 14px;
+   
+   }
+}
+@media screen and (max-width: 700px) {
+ 
+    h1 {
+    font-size: 2em;
+    font-weight: 700px;
+  }
+    h2 {
+    font-size: 2em;
+    font-weight: 700px;
+  }
+   h3 {
+    font-size: 1.50em;
+    font-weight: 700px;
+  }
+   p {
+        font-size: 16px;
+        text-align: center;
+    }
+   
+    section.even {
+        border-top-color: #2c3e50;
+        background-color: #fff;
+        color: #2c3e50;
+        height: 1290px;
+   }
+   .cards__item {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-block-end: 210px;
+    height: 200px;
+    border: 5px solid #2c3e50;
+    background-color: grey;
+}
 }
