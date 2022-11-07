@@ -191,13 +191,19 @@ section .divider {
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
     section.even {
         border-top-color: #2c3e50;
         background-color: #fff;
         color: #2c3e50;
         height: 2000px;
    }
+
+   section#introduce img {
+    max-width: 250px;
+    border: 10px solid #2c3e50;
+    border-radius: 30%;
+    margin-bottom: 3rem;}
 
 }
 
