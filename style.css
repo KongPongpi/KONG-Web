@@ -191,21 +191,22 @@ section .divider {
 
 
 
-
 @media screen and (max-width: 400px) {
+    section.even {
+        border-top-color: #2c3e50;
+        background-color: #fff;
+        color: #2c3e50;
+        height: 2000px;
+   }
+
+}
+
+@media screen and (max-width: 500px) {
     .navbar__link {
     font-size: 11.5px;
 
    }
-
-.navbar__brand {
-    font-size: 14px;
-   
-   }
-}
-@media screen and (max-width: 1200px) {
- 
-    h1 {
+   h1 {
     font-size: 2em;
     font-weight: 700px;
   }
@@ -221,6 +222,16 @@ section .divider {
         font-size: 16px;
         text-align: center;
     }
+
+.navbar__brand {
+    font-size: 14px;
+   
+   }
+}
+
+@media screen and (max-width: 1200px) {
+ 
+    
    
     section.even {
         border-top-color: #2c3e50;
