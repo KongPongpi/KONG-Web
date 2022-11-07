@@ -20,7 +20,10 @@ html, body {
     object-fit: cover;
     height: 80vh;
 }
-
+p {
+    font-size: 16px;
+    text-align: center;
+}
 
 h1, h2, h3, h4, h5 {
     margin: 0;
@@ -110,14 +113,14 @@ section.odd {
     border-top-color: #2c3e50;
     background-color: #18bc9c;
     color: #fff;
-    height: 1050px;
+    height: 970px;
    
 }
 section.even {
     border-top-color: #2c3e50;
     background-color: #fff;
     color: #2c3e50;
-    height: 950px;
+    height: 1100px;
 }
 
 section#introduce img {
@@ -200,7 +203,7 @@ section .divider {
    
    }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1200px) {
  
     h1 {
     font-size: 2em;
@@ -223,7 +226,7 @@ section .divider {
         border-top-color: #2c3e50;
         background-color: #fff;
         color: #2c3e50;
-        height: 1290px;
+        height: 1340px;
    }
    .cards__item {
     margin-left: 15px;
